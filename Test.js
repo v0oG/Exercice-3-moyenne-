@@ -9,8 +9,7 @@
      let coef3 = parseFloat(document.getElementById("CoefMatiere3").value);
 
      let moyenne = ((note1 * coef1) + (note2 * coef2) + (note3 * coef3)) / (coef1 + coef2 + coef3)
-     console.log(moyenne);
 
      let result = document.getElementById("Result");
-     result.innerHTML = moyenne + " ya noob";
+     result.innerHTML = moyenne;
  }
